@@ -1,6 +1,6 @@
 module github.com/parfait1213/odoo
 
-go 1.18
+go 1.21.5
 
 require (
 	github.com/iancoleman/strcase v0.2.0
@@ -12,4 +12,3 @@ require (
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 )
-
