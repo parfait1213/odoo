@@ -18,6 +18,7 @@ type AccountMove struct {
 	Name              *String    `xmlrpc:"name,omitempty"`
 	Narration         *String    `xmlrpc:"narration,omitempty"`
 	PartnerId         *Many2One  `xmlrpc:"partner_id,omitempty"`
+	PartnerBankId     *Many2One  `xmlrpc:"partner_bank_id,omitempty"`
 	Ref               *String    `xmlrpc:"ref,omitempty"`
 	State             *Selection `xmlrpc:"state,omitempty"`
 	StockMoveId       *Many2One  `xmlrpc:"stock_move_id,omitempty"`
